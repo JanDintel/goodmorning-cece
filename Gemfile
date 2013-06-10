@@ -25,12 +25,15 @@ group :development do
   # Error handeling
   gem 'better_errors'
   gem 'binding_of_caller'
+  
+  gem 'rspec-rails'
 end
 
 gem 'haml'
 gem 'jquery-rails'
 
-# gem 'speech2text'
+gem 'speech2text'
+gem 'audite' # mp3 player
 gem 'nokogiri'
 
 # To use ActiveModel has_secure_password

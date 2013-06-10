@@ -1,0 +1,10 @@
+bundle install
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
+
+brew install ffmpeg
+# apt-get install ffmpeg
+
+brew install portaudio
+brew install mpg123
+# apt-get install libportaudiocpp0 portaudio19-dev libmpg123-dev
