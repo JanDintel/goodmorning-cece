@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<buienradarnl>
+  <weergegevens>
+    <titel>www.buienradar.nl - actuele weersinformatie</titel>
+    <link>http://www.buienradar.nl</link>
+    <omschrijving>XML feed weersinformatie</omschrijving>
+    <language>nl-nl</language>
+    <copyright>(C)opyright 2005 - 2013 Buienradar B.V. Alle rechten voorbehouden</copyright>
+    <gebruik>Deze XML feed mag vrij worden gebruikt onder voorwaarde van bronvermelding BuienRadar.NL inclusief een hyperlink naar http://www.buienradar.nl. Aan de feed kunnen door gebruikers of andere personen geen rechten worden ontleend.</gebruik>
+    <number>4</number>
+  </weergegevens>
+</buienradarnl>
