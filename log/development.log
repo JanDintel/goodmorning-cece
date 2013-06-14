@@ -11918,3 +11918,1156 @@ Connecting to database specified by database.yml
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 06:32:48 UTC +00:00], ["date", "11/20/1992"], ["facebook_id", 100004764246707], ["name", "Wouter Groen"], ["updated_at", Fri, 14 Jun 2013 06:32:48 UTC +00:00]]
   [1m[35m (0.9ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (120.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/24"], ["facebook_id", 1912630], ["name", "Hilary Antosh"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 501368265], ["name", "Lau Ra"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/27/1987"], ["facebook_id", 504108452], ["name", "Eveline Roos"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 504125952], ["name", "Emily Hale"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/25"], ["facebook_id", 505819672], ["name", "Megan Folkers"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/14"], ["facebook_id", 509494892], ["name", "Emanuelé Cammarata"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 511265756], ["name", "Janneke Hage"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/07/1992"], ["facebook_id", 518454930], ["name", "Nathan Kevin Hudson"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/13/1992"], ["facebook_id", 518590099], ["name", "Patrick Smith"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/03/1988"], ["facebook_id", 522656829], ["name", "Jitske Dijkhuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/11"], ["facebook_id", 522860652], ["name", "Joris Vroegop"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/15/1989"], ["facebook_id", 523191386], ["name", "Anouk Verschuren"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/01/1992"], ["facebook_id", 530234753], ["name", "Sam Morris"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/12/1989"], ["facebook_id", 531829348], ["name", "Ismail Ulus"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/06"], ["facebook_id", 534671876], ["name", "Annette Scholten"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/26/1993"], ["facebook_id", 546444231], ["name", "Heather Rawlinson"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 546579449], ["name", "Dennis Dessens"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/22"], ["facebook_id", 549276897], ["name", "Cecily Tuesday Osborn"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/13/1993"], ["facebook_id", 550898031], ["name", "Martin Hyde"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/29/1989"], ["facebook_id", 551524305], ["name", "Sebastian Hartman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/23"], ["facebook_id", 559220539], ["name", "Judith van Valkenhoef"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/11/1991"], ["facebook_id", 560848967], ["name", "Rosa de Corte"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 564861432], ["name", "Daniël Van Lieshout"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/23/1990"], ["facebook_id", 567061589], ["name", "Emily Hodgson"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 571900378], ["name", "Jack Arundell"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/31/1991"], ["facebook_id", 577952704], ["name", "Michelle van der Vegt"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/24/1991"], ["facebook_id", 588070069], ["name", "Beth Round"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/05/1993"], ["facebook_id", 597391746], ["name", "Georgina Arundell"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/25"], ["facebook_id", 598035043], ["name", "Catherine Sarah Whitehead"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/06/1989"], ["facebook_id", 599955326], ["name", "Johnathan Macares"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/26/1990"], ["facebook_id", 600472904], ["name", "Judith Juud"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 609256789], ["name", "Rasmus Bredvig"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/06/1993"], ["facebook_id", 609779539], ["name", "Lewis Drew"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/09"], ["facebook_id", 609848295], ["name", "Justine Dudley"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/22/1991"], ["facebook_id", 611600263], ["name", "Thijs Hess"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/17/1990"], ["facebook_id", 611759808], ["name", "Mara Lin Visser"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 613593866], ["name", "George Scarlett"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/11/1993"], ["facebook_id", 615891601], ["name", "Nadine Oosterveer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/27/1991"], ["facebook_id", 618821367], ["name", "Samira Pest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/06/1992"], ["facebook_id", 621935614], ["name", "Emily Kate Weldon"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/03/1990"], ["facebook_id", 624796734], ["name", "Ruben Greve"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/10/1990"], ["facebook_id", 625077266], ["name", "Sebastiaan de Vries"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/30/1992"], ["facebook_id", 625721421], ["name", "Andy Tindall"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/16/1988"], ["facebook_id", 625967796], ["name", "Tom Kamminga"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 626027329], ["name", "Korneel Moerbeek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/21/1993"], ["facebook_id", 633847793], ["name", "Maxime van Leeuwen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/27/1992"], ["facebook_id", 636913520], ["name", "Ester Brons"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/15/1991"], ["facebook_id", 638573921], ["name", "Marije Wabeke"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/24/1990"], ["facebook_id", 640505071], ["name", "Nicolien Dijkhuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/18/1992"], ["facebook_id", 644235053], ["name", "Ramesh Kaushik"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/27/1992"], ["facebook_id", 649153030], ["name", "Maaike Zuijderwijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/20/1993"], ["facebook_id", 652552605], ["name", "Hannah 'Noddy' Gale"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/11"], ["facebook_id", 653171865], ["name", "James Verfuerth"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 653572149], ["name", "Kirsten van Os"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/10/1993"], ["facebook_id", 653626474], ["name", "Callum Moreman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/14/1993"], ["facebook_id", 663500897], ["name", "Matt Phillips"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/08/1993"], ["facebook_id", 664401216], ["name", "Laura Cowey"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/01"], ["facebook_id", 675572815], ["name", "Justin Schut"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 678411248], ["name", "Mats Faka"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/08/1990"], ["facebook_id", 699553109], ["name", "Bas Helmig"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/07/1981"], ["facebook_id", 700424992], ["name", "Sander Hage"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/08"], ["facebook_id", 702875708], ["name", "Imran Hyder"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (38.2ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/11/1993"], ["facebook_id", 703125741], ["name", "Imke Boeder"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/22/1991"], ["facebook_id", 704690642], ["name", "Benjamin Joshua Wholley"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/08"], ["facebook_id", 705400126], ["name", "Sam Trautmann"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/20/1991"], ["facebook_id", 705485286], ["name", "Matthew Phillip Holdsworth"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/05/1988"], ["facebook_id", 706007944], ["name", "Daisy Boot"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/23"], ["facebook_id", 712426335], ["name", "Rick Gerner"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/09/1993"], ["facebook_id", 712735517], ["name", "Anna Makin"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/11/1993"], ["facebook_id", 714551197], ["name", "Alison Peel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/21/1986"], ["facebook_id", 716586998], ["name", "Ginou Breukers"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 725491633], ["name", "Marije Scheffer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/19/1992"], ["facebook_id", 727051565], ["name", "Tonko Van Leeuwen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 737517708], ["name", "Boris Van Katwijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/04/1992"], ["facebook_id", 740958039], ["name", "Quirine Berghuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/06"], ["facebook_id", 751748515], ["name", "Suzanne Van Brussel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/19/1991"], ["facebook_id", 753985411], ["name", "Sanne Alblas"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 776738344], ["name", "Charlotte Dessens"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/20/1980"], ["facebook_id", 785670395], ["name", "Jeroen Hage"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/18"], ["facebook_id", 790353477], ["name", "Elliot Drew"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 792919805], ["name", "Sascha van der Knaap"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/06"], ["facebook_id", 793759773], ["name", "Rafael Mostert"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/17/1992"], ["facebook_id", 796398909], ["name", "Joe Tens Redding"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/03"], ["facebook_id", 834556892], ["name", "Doresito Ferdinand Redan"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/20/1992"], ["facebook_id", 844133957], ["name", "Inge de Vreede"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/06/1993"], ["facebook_id", 845982696], ["name", "Rianne Steenbeek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/07/1991"], ["facebook_id", 867255006], ["name", "Lucy Arundell"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 885505083], ["name", "Michelle Hoi"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1003551871], ["name", "Martin van Neerbos"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/05/1993"], ["facebook_id", 1015552748], ["name", "Thomas Oulton"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/17/1991"], ["facebook_id", 1020912825], ["name", "Janneke van der Ham"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/31"], ["facebook_id", 1021092580], ["name", "Chloë Greve"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/22/1991"], ["facebook_id", 1022118581], ["name", "Marit Tichler"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/27/1972"], ["facebook_id", 1030627666], ["name", "Jan David Hanrath"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/31"], ["facebook_id", 1040633137], ["name", "Melissa Koole"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/06/1995"], ["facebook_id", 1041905583], ["name", "Sjoerd Furth"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1044598197], ["name", "Christiaan Van Gorinchem"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1049076169], ["name", "Duncan Kuijpers"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/05/1987"], ["facebook_id", 1050781755], ["name", "Danielle Luijckx"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/10/1993"], ["facebook_id", 1053983012], ["name", "Michelle Virginie Alblas"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1055753224], ["name", "Milou Dijkhuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1057445316], ["name", "Bexi Denison Smith"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1057710310], ["name", "Eline van Lieshout"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/08/1992"], ["facebook_id", 1058044120], ["name", "Els Pameijer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/06/1988"], ["facebook_id", 1066724437], ["name", "Tessa Hoek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/22/1992"], ["facebook_id", 1067747969], ["name", "Graciëlla Hartman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/13/1993"], ["facebook_id", 1068824621], ["name", "Bodine Wubben"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/13"], ["facebook_id", 1072503927], ["name", "Priscilla Arkenbout"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/09"], ["facebook_id", 1082941074], ["name", "Romy Koch"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/08/1989"], ["facebook_id", 1096376332], ["name", "Kees Van Ekeren"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/23/1994"], ["facebook_id", 1100493463], ["name", "Anouk Damen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/23/1992"], ["facebook_id", 1101472864], ["name", "Rick van Dijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/22/1991"], ["facebook_id", 1101510841], ["name", "Gaby de Jong"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/01/1993"], ["facebook_id", 1113792054], ["name", "Chessie Fox"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/03/1993"], ["facebook_id", 1115649658], ["name", "Abe Stegenga"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/12/1993"], ["facebook_id", 1127033661], ["name", "Janneke Koekhoven"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/01/1992"], ["facebook_id", 1128117620], ["name", "Lotte Mulder"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/13/1993"], ["facebook_id", 1140725979], ["name", "Danny Verbraeken"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/05/1992"], ["facebook_id", 1145583928], ["name", "Kim Reijnen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/07/1990"], ["facebook_id", 1150188363], ["name", "Marloes Goddijn"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/03"], ["facebook_id", 1157595801], ["name", "Jesper Voorendt"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/14/1991"], ["facebook_id", 1174785643], ["name", "Fleur Balkema"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/21"], ["facebook_id", 1206494371], ["name", "Julie Westerweel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/24"], ["facebook_id", 1211110091], ["name", "Benjamin James Connor"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/06/1991"], ["facebook_id", 1211177402], ["name", "Will Smith"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/12"], ["facebook_id", 1218241572], ["name", "Herald Obreen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/20/1990"], ["facebook_id", 1221128123], ["name", "Justin Manders"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/30"], ["facebook_id", 1242383219], ["name", "Jorinde Van de Vis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/15/1993"], ["facebook_id", 1246928153], ["name", "Dymf Alsemgeest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1248396142], ["name", "Miriam Huijser"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/14/1994"], ["facebook_id", 1255917648], ["name", "Tim Dijkhuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/31/1993"], ["facebook_id", 1274643921], ["name", "Leasebed Beaufort"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/01/1992"], ["facebook_id", 1287541721], ["name", "Natalie Fransen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1310877790], ["name", "Tom Hermens"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/06/1993"], ["facebook_id", 1321455952], ["name", "Corey Woodhouse"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/01"], ["facebook_id", 1331373200], ["name", "Sanne Schutte"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1333046861], ["name", "Martina Trommels"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/18/1991"], ["facebook_id", 1339471765], ["name", "Nils van Roon"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/01/1993"], ["facebook_id", 1341519132], ["name", "Valérie Verschoor"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/08/1992"], ["facebook_id", 1350880579], ["name", "Ninica van der Pas"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/29/1989"], ["facebook_id", 1354425957], ["name", "Laszlo Bakker"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/12/1994"], ["facebook_id", 1355501701], ["name", "Danique Boelhouwer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/15"], ["facebook_id", 1381776448], ["name", "Maud Pols"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/21/1992"], ["facebook_id", 1387688540], ["name", "Jan van Erkel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/08/1992"], ["facebook_id", 1398938190], ["name", "Steven Otto"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/22"], ["facebook_id", 1400536570], ["name", "Pieter-Paul Huisman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/20/1992"], ["facebook_id", 1400852735], ["name", "Lisa Morris"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/11/1989"], ["facebook_id", 1403454764], ["name", "Wouter Booij"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/31"], ["facebook_id", 1405082698], ["name", "Sophie Vlok"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/16"], ["facebook_id", 1412784009], ["name", "Ramonda Vermeer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/12/1996"], ["facebook_id", 1420056059], ["name", "Anna Meenderink"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/02/1993"], ["facebook_id", 1422564504], ["name", "Eline van den Berg"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/15/1992"], ["facebook_id", 1423734585], ["name", "Vera van Peet"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/13"], ["facebook_id", 1426890071], ["name", "Stephanie Shams Finn"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/07/1993"], ["facebook_id", 1429261999], ["name", "Tineke Groeneveld"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/25/1994"], ["facebook_id", 1433473000], ["name", "Jamie Tromp"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/07/1994"], ["facebook_id", 1440206090], ["name", "Rebecca Maria"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/05/1992"], ["facebook_id", 1442161073], ["name", "Eric Bastiaan-Net"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/06/1991"], ["facebook_id", 1442172553], ["name", "Martijn Kouwenberg"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/21/1992"], ["facebook_id", 1456458738], ["name", "Simone Wiersema"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/11/1993"], ["facebook_id", 1459941445], ["name", "Robin van Schuylenburch"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/04"], ["facebook_id", 1464006273], ["name", "Will Miller"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/21"], ["facebook_id", 1467003133], ["name", "Jennifer van Marrewijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/10"], ["facebook_id", 1482096510], ["name", "Paul de Lange"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/23/1992"], ["facebook_id", 1485326859], ["name", "Ria Doherty"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/11/1992"], ["facebook_id", 1500721314], ["name", "Luuk Röst"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/01/1993"], ["facebook_id", 1512181316], ["name", "Wessel Klijnsma"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/22/1995"], ["facebook_id", 1514786658], ["name", "Saskia Thoen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/15/1992"], ["facebook_id", 1522242599], ["name", "Marjolein Mulder"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/08"], ["facebook_id", 1527631332], ["name", "Daisy Gomersall"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/08/1994"], ["facebook_id", 1536105151], ["name", "Sarianne Dekker"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/23/1994"], ["facebook_id", 1540448702], ["name", "Chanine Drijver"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/31/1991"], ["facebook_id", 1542083990], ["name", "Shari Helderman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/01/1993"], ["facebook_id", 1543524485], ["name", "Bas Vreugdenhil"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/13/1993"], ["facebook_id", 1551268131], ["name", "Frank van der Bijl"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/08/1991"], ["facebook_id", 1572077643], ["name", "Stefan Hoogenboom"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/25"], ["facebook_id", 1579765792], ["name", "Yildiz van Zijl"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/14/1991"], ["facebook_id", 1593191793], ["name", "Bas Schutte"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1600946097], ["name", "Katinka Meesters"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/08/1994"], ["facebook_id", 1601347625], ["name", "Becky Joanne Wholley"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 1602044912], ["name", "Renate van Zalen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/27"], ["facebook_id", 1603682663], ["name", "Merel Jansen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/22"], ["facebook_id", 1614126391], ["name", "Laurie Pronk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/25/1993"], ["facebook_id", 1628401899], ["name", "Robin Bentvelzen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/30/1993"], ["facebook_id", 1628711905], ["name", "Lara Knijnenburg"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/24/1994"], ["facebook_id", 1638323540], ["name", "Judith de Koning"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/19/1992"], ["facebook_id", 1640636442], ["name", "Robin Kester"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/12"], ["facebook_id", 1642421922], ["name", "Annemarie van der Klis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/30/1992"], ["facebook_id", 1642952781], ["name", "Yvonne Kooy"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/17/1980"], ["facebook_id", 1663376593], ["name", "Koen van Tongeren"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/10"], ["facebook_id", 1663575446], ["name", "Anja de Geest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/16/1993"], ["facebook_id", 1664019876], ["name", "Raven Salemink"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/25/1993"], ["facebook_id", 1667217631], ["name", "Brenda Olsen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/21/1993"], ["facebook_id", 1677141609], ["name", "Vicky van Leeuwen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/31"], ["facebook_id", 1677548434], ["name", "Bryn Kwint"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/14/1990"], ["facebook_id", 1702489427], ["name", "Wiebe Dijkstra"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/01/1992"], ["facebook_id", 1727744268], ["name", "Nina Riem Vis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/28"], ["facebook_id", 1732792918], ["name", "Mark Grannetia"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/28/1994"], ["facebook_id", 1734468253], ["name", "Ellie Smith"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/28/1993"], ["facebook_id", 1799505354], ["name", "Tristan Verstegen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/26/1991"], ["facebook_id", 1819571258], ["name", "Ferry van Offeren"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/28/1991"], ["facebook_id", 1826066232], ["name", "Brittany Eleanor Reid"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/11/1994"], ["facebook_id", 1840425003], ["name", "Lisa de Geest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/09/1993"], ["facebook_id", 100000032096502], ["name", "Ingrid Vermeer"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000046576831], ["name", "Bart Olsthoorn"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/05/1992"], ["facebook_id", 100000054983501], ["name", "Boris 't Hart"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/26/1968"], ["facebook_id", 100000068750568], ["name", "Robert Voogdgeert"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/22/1996"], ["facebook_id", 100000072459408], ["name", "Mirte Huisman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/11/1994"], ["facebook_id", 100000085676308], ["name", "Christiane Santos"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000125841123], ["name", "Myrte de Vries"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/19/1992"], ["facebook_id", 100000152573072], ["name", "Gileine Rappard"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000154463975], ["name", "Nat NL"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/16"], ["facebook_id", 100000156983084], ["name", "Esmé Reijgers"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/08/1991"], ["facebook_id", 100000158042865], ["name", "Angela van der Lans"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000160078184], ["name", "Ellert Verbeek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/17/1994"], ["facebook_id", 100000165893186], ["name", "Lotte Poortman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/16/1991"], ["facebook_id", 100000177541903], ["name", "Ernst Jan Vegter"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/10/1989"], ["facebook_id", 100000195636727], ["name", "Evelien Röst"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/16/1988"], ["facebook_id", 100000197492538], ["name", "Reinier Valstar"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/19/1986"], ["facebook_id", 100000198458076], ["name", "Marloes van der Pas"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/03"], ["facebook_id", 100000210450510], ["name", "Rens Dijkhuijs"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/06/1990"], ["facebook_id", 100000217383814], ["name", "Emile Frijns"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/22/1990"], ["facebook_id", 100000223040731], ["name", "Red Bergman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/17/1957"], ["facebook_id", 100000235385065], ["name", "Ronald Van de Vis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/28/1996"], ["facebook_id", 100000239398845], ["name", "Remco Out"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/20/1993"], ["facebook_id", 100000250722149], ["name", "Dave Guest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/03/1993"], ["facebook_id", 100000292884762], ["name", "Dio Voshol"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/10/1991"], ["facebook_id", 100000325491493], ["name", "Esha Metiary"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/20/1993"], ["facebook_id", 100000349861183], ["name", "Julia van Roon"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/20/1987"], ["facebook_id", 100000357964440], ["name", "Yoni van Rooyen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/27/1992"], ["facebook_id", 100000372550282], ["name", "Pim de Jong"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/21/1993"], ["facebook_id", 100000408265478], ["name", "Niels van den Beukel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/04/1990"], ["facebook_id", 100000420257044], ["name", "Mylene Govaarts"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/13/1995"], ["facebook_id", 100000421431974], ["name", "Lobke Reijnen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/09/1995"], ["facebook_id", 100000461778961], ["name", "Ana Catarina"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/06/1992"], ["facebook_id", 100000467764387], ["name", "James Preston"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/18/1988"], ["facebook_id", 100000478636333], ["name", "Robin Vrijhoef"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/03/1992"], ["facebook_id", 100000487259048], ["name", "Kjeld Verboom"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/26/1984"], ["facebook_id", 100000510143595], ["name", "Huub Says"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/15/1988"], ["facebook_id", 100000549742762], ["name", "Geert Stroo"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000556020597], ["name", "Liset Raus"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/03"], ["facebook_id", 100000567954622], ["name", "Myrinne Snoek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/22/1993"], ["facebook_id", 100000572286081], ["name", "Jip Stam"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100000574971581], ["name", "Manon Vogels"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/24/1992"], ["facebook_id", 100000670660463], ["name", "Lotte Julia Herstel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/15"], ["facebook_id", 100000688885713], ["name", "Maurice van Thuijl"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/15/1992"], ["facebook_id", 100000712980473], ["name", "Merijn Bol"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/12/1991"], ["facebook_id", 100000729925472], ["name", "Martijn Groeneveld"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/23"], ["facebook_id", 100000731440591], ["name", "Bethan King"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/11/1991"], ["facebook_id", 100000742575872], ["name", "Evelien de Jongh"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/19/1984"], ["facebook_id", 100000778373278], ["name", "Jonathan Abraha"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/23"], ["facebook_id", 100000849402725], ["name", "Janet van Egmond"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/18/1991"], ["facebook_id", 100000866950738], ["name", "Tomas Giele"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/23/1991"], ["facebook_id", 100000895170674], ["name", "Sven Driessen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/11"], ["facebook_id", 100000904000026], ["name", "Dagmar Bol"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/09/1999"], ["facebook_id", 100000904862673], ["name", "Jack van der Plas"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/26/1992"], ["facebook_id", 100000929222906], ["name", "Eline Bennis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/19/1993"], ["facebook_id", 100000966430315], ["name", "Naomi Int Hout"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/12/1993"], ["facebook_id", 100000970201433], ["name", "Julia Krapels"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/07/1977"], ["facebook_id", 100000976624428], ["name", "David Verbeek"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/23/1991"], ["facebook_id", 100001006301363], ["name", "Kevin Passchier"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/17/1993"], ["facebook_id", 100001010845158], ["name", "Denise van der Wal"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/28/1994"], ["facebook_id", 100001052149128], ["name", "Joske Van de Vis"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001067750488], ["name", "Chayenne Mink"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/28/1993"], ["facebook_id", 100001067926362], ["name", "Max Camfferman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/04/1993"], ["facebook_id", 100001070415802], ["name", "Denise Luyken"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/14/1993"], ["facebook_id", 100001102232084], ["name", "Carlo Van Den Burg"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/05/1991"], ["facebook_id", 100001129967050], ["name", "Yvonne de Jong"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/03/1990"], ["facebook_id", 100001151010040], ["name", "Barry Out"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/14/1991"], ["facebook_id", 100001153932269], ["name", "Margot de Roon"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001167398157], ["name", "Noëlle van Noort"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/15/1992"], ["facebook_id", 100001205455986], ["name", "Marjolein van Peppen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "06/06/1991"], ["facebook_id", 100001210432782], ["name", "Kasper Lourens"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001226862338], ["name", "Bastiaan van Wijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/19"], ["facebook_id", 100001237026482], ["name", "Margot van Tol"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "02/20/1990"], ["facebook_id", 100001240755009], ["name", "Bas Magermans"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/22/1993"], ["facebook_id", 100001240977098], ["name", "Mirwais Mehrab"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001248226191], ["name", "Manon Been"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/13/1993"], ["facebook_id", 100001269623451], ["name", "Wendy Flikweert"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "10/29"], ["facebook_id", 100001298718704], ["name", "Marlie Zuidgeest"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001303200891], ["name", "Ana Martínez"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/28/1993"], ["facebook_id", 100001307684087], ["name", "Zoé Daemen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/10/1993"], ["facebook_id", 100001331673212], ["name", "Silvano van der Houwen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "07/29"], ["facebook_id", 100001357312158], ["name", "Jennifer van der Deyl"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "01/23/1993"], ["facebook_id", 100001395441386], ["name", "Dennis Vrolijk"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "05/25/1993"], ["facebook_id", 100001401942184], ["name", "Rutger Opperman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/04/1990"], ["facebook_id", 100001413048616], ["name", "Emmy Heijmans"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/06/1988"], ["facebook_id", 100001431153988], ["name", "Robbert van Lieshout"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/12/1992"], ["facebook_id", 100001432473590], ["name", "Hanna de Wilde"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/15/1973"], ["facebook_id", 100001477545171], ["name", "Ewin Sennema"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "08/22/1993"], ["facebook_id", 100001485604636], ["name", "Irene Marsman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/03/1979"], ["facebook_id", 100001566537606], ["name", "Floris van der Voet"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001568800601], ["name", "Manon Jansen"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "12/13/1991"], ["facebook_id", 100001601808477], ["name", "Lisa de Roos"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/24/1994"], ["facebook_id", 100001604305787], ["name", "Heaven Leigh Toetenel"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "04/26/1988"], ["facebook_id", 100001604600443], ["name", "Denise Goedhart"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "09/13/1993"], ["facebook_id", 100001610663417], ["name", "Remy Mulder"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "11/01/1990"], ["facebook_id", 100001610779275], ["name", "Kaj Landman"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", "03/14/1905"], ["facebook_id", 100001617317584], ["name", "Jasper Dessens"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00], ["date", nil], ["facebook_id", 100001625468764], ["name", "Marije Labrujere"], ["updated_at", Fri, 14 Jun 2013 07:00:52 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/06/1971"], ["facebook_id", 100001629034995], ["name", "Cindy Dunant"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/02/1993"], ["facebook_id", 100001631142182], ["name", "Moja Schuring"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "03/07/1988"], ["facebook_id", 100001668708894], ["name", "Aaron de Volder"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/01/1987"], ["facebook_id", 100001680673213], ["name", "Ilonka de Volder van der Heijden"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/18/1981"], ["facebook_id", 100001696928728], ["name", "Rosanne Hage"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/05/1991"], ["facebook_id", 100001699827605], ["name", "Nadine van der Harst"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100001726148274], ["name", "Melinda de Bruin"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100001727792197], ["name", "Casper Spoelstra"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/23/1993"], ["facebook_id", 100001740541653], ["name", "Mathilde van Gentevoort"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/27/1982"], ["facebook_id", 100001773744155], ["name", "Bart van Bemmelen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "08/28/1992"], ["facebook_id", 100001800407683], ["name", "Nikki Koenn"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/09/1991"], ["facebook_id", 100001815805993], ["name", "Rick Zitman"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/20"], ["facebook_id", 100001874315108], ["name", "Timo de Jong"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100001876528217], ["name", "Quinta Johanna"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/09/1988"], ["facebook_id", 100001880949623], ["name", "Jessica Deluba"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/31/1989"], ["facebook_id", 100001902909390], ["name", "Eduard van Hamelen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "06/02/1993"], ["facebook_id", 100001911591404], ["name", "Puck van Hulst"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "07/24/1991"], ["facebook_id", 100001913868089], ["name", "Sander Bogaards"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/15/1993"], ["facebook_id", 100001922392033], ["name", "Pim van Veen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/20/1993"], ["facebook_id", 100001924312406], ["name", "Edwin van Thuijl"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/21"], ["facebook_id", 100001967762028], ["name", "Tom van den Ende"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/30/1994"], ["facebook_id", 100001991966227], ["name", "Wali Safi"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002001348664], ["name", "Thimo Arts"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "03/03/1992"], ["facebook_id", 100002009453284], ["name", "Kaj Groenewegen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002013223148], ["name", "Roy van Kester"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "09/10/1992"], ["facebook_id", 100002031151507], ["name", "Jelle Kijlstra"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002031644954], ["name", "Scoutinggroep De Mohicanen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "06/21/1993"], ["facebook_id", 100002057475793], ["name", "Lotte van den Elsen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/24/1992"], ["facebook_id", 100002063443626], ["name", "Maarten Breugelmans"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "01/19/1993"], ["facebook_id", 100002100167463], ["name", "Eva van Rutten"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/09"], ["facebook_id", 100002112464016], ["name", "Margriet Wiggers"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002121572280], ["name", "Marleen van der Pas"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "11/15/1992"], ["facebook_id", 100002135814546], ["name", "Ivar van der Lugt"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "01/19"], ["facebook_id", 100002155752915], ["name", "Maurits de Koning"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002158632422], ["name", "Anna-fleur Deirdre Zoë"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/18/1993"], ["facebook_id", 100002224060181], ["name", "Pamela Baarda"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/09/1991"], ["facebook_id", 100002292522426], ["name", "Elise Vellekoop"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/28/1977"], ["facebook_id", 100002298227071], ["name", "Chantal Hogervorst"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "01/03/1992"], ["facebook_id", 100002319199965], ["name", "Fabiënne Konings"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/22/1993"], ["facebook_id", 100002341760914], ["name", "Joey van der Plas"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "03/08/1992"], ["facebook_id", 100002386937468], ["name", "Elmer van der Spek"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "11/14/1991"], ["facebook_id", 100002419525764], ["name", "Noerani Samsoedien"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/04/1994"], ["facebook_id", 100002427927889], ["name", "Manouk Willemstein"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/13/1991"], ["facebook_id", 100002434684365], ["name", "Carlo Arkesteijn"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/16/1982"], ["facebook_id", 100002442311209], ["name", "Goeie Tetten"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (24.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "03/09/1988"], ["facebook_id", 100002451587677], ["name", "Matthew van Schoonderwoerd"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100002493788136], ["name", "Arno Reijnen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/08/1996"], ["facebook_id", 100002507888437], ["name", "Roel van der Pas"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/25/1994"], ["facebook_id", 100002513727692], ["name", "Joyce Bergmans"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "01/16/1993"], ["facebook_id", 100002516658231], ["name", "Mitchel Lelieveld"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "03/10/1992"], ["facebook_id", 100002522254512], ["name", "Michelle Berkhoff"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "08/11/1992"], ["facebook_id", 100002549623971], ["name", "Patrick Broch"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/04/1994"], ["facebook_id", 100002592538671], ["name", "Denise de Jong"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "06/16/1977"], ["facebook_id", 100002656083373], ["name", "Maurits Schellekens"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/10"], ["facebook_id", 100002679222231], ["name", "Sven Bakker"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/19/1991"], ["facebook_id", 100002764166775], ["name", "Ilona Sebel"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/23/1992"], ["facebook_id", 100002772757655], ["name", "Iris van den Akker"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/24/1992"], ["facebook_id", 100002801713882], ["name", "Alette Straathof"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/26/1993"], ["facebook_id", 100002827434764], ["name", "Nicky Solleveld"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "11/08/1990"], ["facebook_id", 100002875998522], ["name", "Wendy Prop"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "08/26/1994"], ["facebook_id", 100002884888540], ["name", "Eveline Roos"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "09/15/1993"], ["facebook_id", 100002893917976], ["name", "Aukje Postma"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/25/1995"], ["facebook_id", 100002901968537], ["name", "Sjoukje de Lange"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/08/1991"], ["facebook_id", 100002907177409], ["name", "Jacqueline van Hoeken"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "08/11/1994"], ["facebook_id", 100002927050774], ["name", "Iris van der Lubbe"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/20/1993"], ["facebook_id", 100002949589114], ["name", "Frank Scholtes"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/12/1993"], ["facebook_id", 100002950631862], ["name", "Floris Malherbe"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/11/1990"], ["facebook_id", 100002952399864], ["name", "Laura Kasius"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/21/1992"], ["facebook_id", 100002957881874], ["name", "Thymen Voogt"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/06/1991"], ["facebook_id", 100002982731937], ["name", "Aike Eggen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100003034685481], ["name", "Wouter Olsthoorn"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100003111961904], ["name", "IPad Hogeschool Leiden"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "08/11/1994"], ["facebook_id", 100003115429553], ["name", "Vinnie Heftst"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "10/29/1990"], ["facebook_id", 100003147624460], ["name", "Maya Karsli"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "05/17/1992"], ["facebook_id", 100003245078123], ["name", "Bram Stuivenberg"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/07/1999"], ["facebook_id", 100003544128451], ["name", "Sofie Reijnen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", nil], ["facebook_id", 100003613213465], ["name", "Diana Soares"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "04/21"], ["facebook_id", 100003619138446], ["name", "Sanne van Leeuwen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "12/20"], ["facebook_id", 100003663230432], ["name", "Holly Vasalofsky"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "11/03"], ["facebook_id", 100003715486477], ["name", "Arielle Smith"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "07/30/1962"], ["facebook_id", 100004068850731], ["name", "Desiree Reijnen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "09/29/1993"], ["facebook_id", 100004170365200], ["name", "Mike Willemse"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "02/24"], ["facebook_id", 100004350870893], ["name", "Lars Heijnsdijk"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "birthdays" ("created_at", "date", "facebook_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00], ["date", "11/20/1992"], ["facebook_id", 100004764246707], ["name", "Wouter Groen"], ["updated_at", Fri, 14 Jun 2013 07:00:53 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  commit transaction
