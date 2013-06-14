@@ -1,6 +1,4 @@
-# Good Morning, Cece
+goodmorning-cece
+================
 
-Project of Jan & Bart for Cece
-A speech controlled robot
-
-Star the repo and keep in touch!
+Project of Jan &amp; Bart for Cece

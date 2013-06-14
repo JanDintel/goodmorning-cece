@@ -1,0 +1,19 @@
+<h1>Users</h1>
+
+<table>
+  <tr>
+    <th>Naam</th>
+    <th>Inspect</th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= user.inspect %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

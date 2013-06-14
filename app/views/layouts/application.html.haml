@@ -1,0 +1,29 @@
+!!! 5
+%html
+  %head
+    %title Goodmorning Cece and Penny
+    = stylesheet_link_tag 'application', media: 'all' 
+    = javascript_include_tag 'application' 
+    = csrf_meta_tags
+    
+  %body  
+    .container
+      - if notice
+        %p{class: 'alert alert-success'}= notice
+      - if alert
+        %p{class: 'alert alert-error'}= alert
+        
+      - if signed_in?(:user)
+        Ingelogd als
+        %strong
+        / = link_to current_user.name, current_user, :class=>"btn btn-small"
+        = link_to 'Account bewerken', edit_user_registration_path, :class=>"btn btn-info btn-small"
+        = link_to "Uitloggen", destroy_user_session_path, :class=>"btn btn-danger btn-small", method: :delete
+      - else
+        = link_to "Inloggen", new_user_session_path
+    
+    .row
+      .span1
+       
+      .span11=yield
+        
