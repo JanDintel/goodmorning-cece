@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130610202919) do
+ActiveRecord::Schema.define(:version => 20130614080104) do
 
   create_table "birthdays", :force => true do |t|
     t.integer  "facebook_id"
@@ -19,6 +19,31 @@ ActiveRecord::Schema.define(:version => 20130610202919) do
     t.string   "name"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "trains", :force => true do |t|
+    t.string   "from_station"
+    t.string   "to_station"
+    t.boolean  "departure"
+    t.datetime "datetime"
+    t.string   "station"
+    t.boolean  "actual_disruption"
+    t.boolean  "unplanned_disruption"
+    t.text     "message"
+    t.text     "advice"
+    t.string   "disruption_notification"
+    t.string   "planned_travel_time"
+    t.string   "actual_travel_time"
+    t.integer  "departure_delay"
+    t.integer  "arrival_delay"
+    t.datetime "planned_departure_time"
+    t.datetime "actual_departure_time"
+    t.datetime "plannend_arrival_time"
+    t.datetime "actual_arrival_time"
+    t.string   "current_status"
+    t.string   "track"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
   end
 
   create_table "users", :force => true do |t|
