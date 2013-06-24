@@ -4,40 +4,42 @@ task :retrieve_travel_info => :environment do
   require 'nokogiri'
   require 'open-uri'
 
+  def open_url(url)
+    Nokogiri::HTML(open(url, :http_basic_authentication => [ENV["USER_NAME_NS"], ENV["PASSWORD_NS"]]))
+  end
   
     # Get travel information about traject
     info_url = 'http://webservices.ns.nl/ns-api-treinplanner?fromStation=Leiden&toStation=Den+Haag+HS&departure=true'
-    doc = Nokogiri::HTML(open(info_url, :http_basic_authentication => [ENV["USER_NAME_NS"], ENV["PASSWORD_NS"]]))
-    journey_option = 1
-    first_journey = doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]")
-      Train.create(
-        from_station: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/naam").first.text,
-        to_station: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/naam").last.text,
-        # message:
-        disruption_notification: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/melding/text").text,
-        departure_delay: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/vertrekvertraging").text,
-        arrival_delay: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/aankomstvertraging").text,
-        planned_travel_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandereistijd").text,
-        actual_travel_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actuelereistijd").text,
-        planned_departure_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandevertrektijd").text,
-        actual_departure_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actuelevertrekstijd").text,
-        plannend_arrival_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandeaankomsttijd").text,
-        actual_arrival_time: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actueleaankomsttijd").text,
-        current_status: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel[#{journey_option}]/status").text,
-        track: doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/spoor").first.text
-        )  
-  
-    # Get disruption information
+    info_doc = open_url(info_url)
     disruption_url = 'http://webservices.ns.nl/ns-api-storingen?station=Leiden+Centraal'
-    doc = Nokogiri::HTML(open(disruption_url, :http_basic_authentication => [ENV["USER_NAME_NS"], ENV["PASSWORD_NS"]]))
+    disruption_doc = open_url(disruption_url)
+    # Option to select first, second, ect journey
+    journey_option = 1
       Train.create(
-        #departure:
-        datetime: doc.xpath("//storingen/ongepland/storing/datum").text,
-        #station: 
-        actual_disruption: doc.xpath("//storingen/gepland/storing/reden").text,
-        unplanned_disruption: doc.xpath("//storingen/ongepland/storing/reden").text,
-        #message:
-        advice: doc.xpath("//storingen/gepland/storing/advies").text
-        )
+      # Travel information
+      from_station: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/naam").first.text,
+      to_station: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/naam").last.text,
+      disruption_notification: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/melding/text").text,
+      departure_delay: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/vertrekvertraging").text,
+      arrival_delay: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/aankomstvertraging").text,
+      planned_travel_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandereistijd").text,
+      actual_travel_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actuelereistijd").text,
+      planned_departure_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandevertrektijd").text,
+      actual_departure_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actuelevertrekstijd").text,
+      plannend_arrival_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/geplandeaankomsttijd").text,
+      actual_arrival_time: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/actueleaankomsttijd").text,
+      current_status: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel[#{journey_option}]/status").text,
+      track: info_doc.xpath("//reismogelijkheden/reismogelijkheid[#{journey_option}]/reisdeel/reisstop/spoor").first.text,
+      # Disruption information
+      #departure:
+      datetime: disruption_doc.xpath("//storingen/ongepland/storing/datum").text,
+      #station: 
+      actual_disruption: disruption_doc.xpath("//storingen/gepland/storing/reden").text,
+      unplanned_disruption: disruption_doc.xpath("//storingen/ongepland/storing/reden").text,
+      #TODO: De disruption message is een CDATA node en wordt niet gelezen door Nokogiri
+      message: disruption_doc.xpath("//storingen/ongepland/bericht").text,
+      advice: disruption_doc.xpath("//storingen/gepland/storing/advies").text
+      )  
+
       puts "Rake task: completed"
-    end
+end
