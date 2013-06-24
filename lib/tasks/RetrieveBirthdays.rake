@@ -4,7 +4,7 @@ task :retrieve_birthdays => :environment do
   require 'koala'
   require 'certified'
 
-  oauth_token = ENV["OAUTH_TOKEN"]
+  oauth_token = ENV["OAUTH_TOKEN_FACEBOOK"]
   graph = Koala::Facebook::API.new(oauth_token)
 
   all_birthdays = graph.get_object("me?fields=id,name,friends.fields(birthday,name)")
