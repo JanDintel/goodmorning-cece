@@ -10,7 +10,7 @@ task :retrieve_birthdays => :environment do
   all_birthdays = graph.get_object("me?fields=id,name,friends.fields(birthday,name)")
   all_birthdays.reject {|birthday| birthday == nil }
   all_birthdays["friends"]["data"].each { |friend| friend[""] }.each do |friend|
-    # Een functie die checkt of je niet alles dupliceert in de db
+    #TODO: Een functie die checkt of je niet alles dupliceert in de db
     Birthday.create(
       name: friend["name"],
       date: friend["birthday"],
